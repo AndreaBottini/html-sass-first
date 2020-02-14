@@ -1,0 +1,21 @@
+$color_title: green;
+$font_titile: 30px;
+
+h1 {
+  color: $color_title;
+  font-size: $font_titile;
+}
+
+$title_transform: uppercase;
+
+h2 {
+  text-transform: $title_transform;
+}
+
+$paragraph_body: 40px;
+$paragraph_color: red;
+
+p {
+  font-size: $paragraph_body;
+  color: $paragraph_color;
+}
